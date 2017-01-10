@@ -1,0 +1,129 @@
+body {
+  text-align: center;
+  background-color:  #CFD8DC;
+}
+
+h1 {
+  font-family: 'Space Mono', monospace;
+  margin-bottom: 60px;
+  font-size: 40px;
+}
+
+/*Div which houses whole calculator*/
+#calculator {
+  background-color: #0288D1;
+  border: 0.5px solid #039BE5;
+  width: 300px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 25px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  box-shadow: 10px 10px 5px #57575A;
+}
+
+/*Screen which displays calculator results*/
+#calc-screen {
+  background-color: #E1F5FE;
+  box-shadow: inset 0.5px 0.5px 0.5px black;
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #2D2E5C;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 12px;
+  padding: 7px;
+}
+
+/*Number that appears on screen*/
+#num {
+  font-size: 30px;
+  font-family: 'Space Mono', monospace;
+}
+
+/*Portion of calculator which holds all buttons*/
+#main-calc {
+  background-color: #E1F5FE;
+  box-shadow: inset 2px 2px 2px black;
+  border: 0.5px solid #039BE5;
+  width: 250px;
+  height: 275px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+  padding: 22px;
+  border-radius: 10px;
+}
+
+/*Buttons*/
+a {
+  margin: 5px;
+}
+
+/*All number buttons and . button*/
+.button {
+  background-color: #039BE5;
+  color: white;
+  border: 0.5px solid #0277BD;
+  box-shadow: 1px 1px 1px #01579B;
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+}
+
+.button:hover {
+  color: white;
+  background-color: #01579B;
+}
+
+/*Operator buttons*/
+.btn-primary {
+  background-color: #01579B;
+  color: white;
+  border: 0.5px solid #0277BD;
+  box-shadow: 1px 1px 1px #01579B;
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+}
+
+.btn-primary:hover {
+  background-color: #0288D1;
+}
+
+/*AC and CE buttons*/
+.btn-danger {
+  background-color: #D81B60;
+  color: white;
+  border: 0.5px solid #880E4F;
+  box-shadow: 1px 1px 1px #01579B;
+  padding: 6px;
+  font-size: 18px;
+  font-family: 'Space Mono', monospace;
+}
+
+.btn-danger:hover {
+  background-color: #AD1457;
+}
+
+/*Buttons 1, 2,and 3. Move into position*/
+.move {
+  margin-top: -45px;
+}
+
+/*Buttons 0, and . for position purposes*/
+.move-again {
+  margin-top: -75px;
+  margin-left: 
+}
+
+/*The 0 button, to make bigger*/
+.bigZero {
+  width: 88px;
+  margin-left: -47px;
+}
+
+/*The = button, to make bigger*/
+.bigEquals {
+  height: 90px;
+}
